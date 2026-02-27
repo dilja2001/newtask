@@ -16,6 +16,10 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/tasks", taskRoutes);
 
+app.get("/", (req, res) => {
+  res.send("Backend is running!");
+});
+
 // DB connect
 mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log("MongoDB Connected"))
