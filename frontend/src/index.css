@@ -1,0 +1,6 @@
+/* sidebar width helper */
+@media (min-width: 768px) {
+  .ms-md-250 {
+    margin-left: 250px;
+  }
+}
