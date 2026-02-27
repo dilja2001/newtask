@@ -9,7 +9,13 @@ const taskRoutes = require("./routes/taskRoutes");
 const app = express();
 
 // middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://client-smoky-nine-87.vercel.app", // your frontend URL
+    credentials: true, // allow cookies if needed
+  })
+);
+
 app.use(express.json());
 
 // routes
