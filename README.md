@@ -19,7 +19,7 @@ This is a Task Manager web application where users can register, login, create t
 ## Installation / Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/dilja2001/Task-manager.git
+git clone https://github.com/dilja2001/newtask.git
 
 
 2. Backend Setup
